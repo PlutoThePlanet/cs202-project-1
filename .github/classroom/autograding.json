@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "compile",
+      "setup": "",
+      "run": "make",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Usage test",
+      "setup": "",
+      "run": "./text_analzyer",
+      "input": "",
+      "output": "Correct usage:\r\n./text_analyzer filename",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Bad filename",
+      "setup": "",
+      "run": "./text_analyzer badfile.txt",
+      "input": "",
+      "output": "The file badfile.txt could not be opened",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Correct input",
+      "setup": "",
+      "run": "./text_analyzer poem.txt",
+      "input": "",
+      "output": "There are 54 letters in your file.\r\nThere are 4 upper case letters in your file.\r\nThere are 16 letters between 'a' and 'f'.\r\nThe longest word in this file is \"Refrigerator\".",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

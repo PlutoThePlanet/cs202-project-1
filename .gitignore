@@ -1,0 +1,12 @@
+/cmake-build-debug/
+/._driver.cpp
+/._makefile
+/._poem.txt
+/._pp.txt
+/._README.md
+/._t.txt
+/._word_analyzer.cpp
+/._word_analyzer.h
+/a.out
+/CMakeLists.txt
+*.o
